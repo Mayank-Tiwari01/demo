@@ -1,14 +1,95 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "tasks": [
+    {
+      "id": "3",
+      "text": "Team meeting",
+      "day": "May 7th at 10:00 am",
+      "reminder": true,
+      "priority": "high"
+    },
+    {
+      "id": "5",
+      "text": "Dentist appointment",
+      "day": "May 9th at 9:00 am",
+      "reminder": true,
+      "priority": "high"
+    },
+    {
+      "id": "6",
+      "text": "Call mom",
+      "day": "May 10th at 8:00 pm",
+      "reminder": false,
+      "priority": "medium"
+    },
+    {
+      "id": "7",
+      "text": "Finish project report",
+      "day": "May 11th at 11:00 am",
+      "reminder": true,
+      "priority": "high"
+    },
+    {
+      "id": "8",
+      "text": "Lunch with Sarah",
+      "day": "May 12th at 1:00 pm",
+      "reminder": false,
+      "priority": "medium"
+    },
+    {
+      "id": "9",
+      "text": "Weekly planning",
+      "day": "May 13th at 5:00 pm",
+      "reminder": true,
+      "priority": "medium"
+    },
+    {
+      "id": "10",
+      "text": "Buy birthday gift",
+      "day": "May 14th at 2:00 pm",
+      "reminder": false,
+      "priority": "low"
+    },
+    {
+      "id": "12",
+      "text": "Read book",
+      "day": "May 16th at 7:00 pm",
+      "reminder": false,
+      "priority": "low"
+    },
+    {
+      "id": "13",
+      "text": "Cook dinner",
+      "day": "May 17th at 6:00 pm",
+      "reminder": false,
+      "priority": "medium"
+    },
+    {
+      "id": "15",
+      "text": "Client presentation",
+      "day": "May 19th at 9:30 am",
+      "reminder": true,
+      "priority": "high"
+    },
+    {
+      "id": "16",
+      "text": "Gardening",
+      "day": "May 20th at 4:00 pm",
+      "reminder": false,
+      "priority": "low"
+    },
+    {
+      "id": "17",
+      "text": "Visit grandparents",
+      "day": "May 21st at 2:00 pm",
+      "reminder": false,
+      "priority": "medium"
+    },
+    {
+      "id": "18",
+      "text": "Movie night",
+      "day": "May 22nd at 8:00 pm",
+      "reminder": false,
+      "priority": "low"
+    }
+  ]
 }
